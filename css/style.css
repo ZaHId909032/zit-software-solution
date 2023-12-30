@@ -1,0 +1,389 @@
+
+
+
+
+
+
+
+#zahid_it ul li  {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+#zahid_it ul li a{
+    padding: 0.2rem 0.5rem;
+    margin-right: 10px;
+}
+#zahid_it ul li a:hover{
+    
+    color: brown;
+}
+
+
+
+/* home page style start */
+
+
+.heading_image{
+    width: 100%;
+    height: 600px;
+    background-image:url(../media/design.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     text-align: center;
+     overflow: hidden;
+}
+.service{
+    color: red;
+}
+
+.one{
+    height: auto;
+    text-align: center;
+    
+}
+
+/* course page er style */
+
+.icon_circle{
+    color: white;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(192, 11, 11);
+    text-align: center;
+}
+.icon_circle:hover{
+    background-color: transparent;
+    color: rgb(192, 32, 11);
+}
+
+.icon_second_step{
+    margin-top: auto;
+    
+   
+    margin: auto;
+    font-size: 50px;
+
+}
+#pra_text{
+    text-align: justify;
+    margin-left: 5px;
+    margin-right:10 px;
+}
+.text_two{
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(128, 0, 0);
+    margin-bottom: 15px;
+}
+#third_section{
+     height: auto; 
+    background-image: url(../media/third\ step.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+     
+}
+.course{
+    height: auto;
+  
+}
+.course:hover{
+    -webkit-animation: flip-scale-up-diag-1 0.5s linear both;
+                animation: flip-scale-up-diag-1 0.5s linear both;
+    
+ 
+}
+.course_hed{
+    margin-top: 20px;
+    color: rgb(184, 8, 8);
+    font-weight: bold;
+}
+
+a .fot:hover{
+    color: rgb(175, 231, 45);
+}
+
+
+/* home page style start */
+
+
+
+#bred {
+    font-size: 15px;
+    color: rgb(255, 248, 248);
+    font-weight: bold;
+    margin-top: 1rem;
+   
+}
+#bred a{
+    color: black;
+}
+
+/* index page step second css */
+
+#custom_software{
+    height: 250px;
+     box-shadow: 7px 11px 5px 0px rgba(232,232,232,0.75);
+    -webkit-box-shadow: 7px 11px 5px 0px rgba(232,232,232,0.75);
+    -moz-box-shadow: 7px 11px 5px 0px rgba(232,232,232,0.75); 
+    border:3px solid #b313ab;
+    border-radius: 20px!important; 
+    cursor: pointer;
+}
+#custom_software1{
+    height: 250px;
+     box-shadow: 7px 11px 5px 0px rgba(232,232,232,0.75);
+    -webkit-box-shadow: 7px 11px 5px 0px rgba(232,232,232,0.75);
+    -moz-box-shadow: 7px 11px 5px 0px rgba(232,232,232,0.75); 
+    border:3px solid #ffffff;
+    border-radius: 20px!important; 
+    cursor: pointer;
+}
+ #cust:hover{
+    color: red;
+}
+#custom_software:hover{
+    height: 280px;
+    transition: 2s;
+    border:3px ;
+   color: white;
+   background: rgb(36,21,238);
+   background: linear-gradient(90deg, rgba(36,21,238,1) 0%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);
+}
+#custom_software1:hover{
+    height: 280px;
+    transition: 2s;
+    border:3px solid #b313ab;
+    color: white;
+    background: rgb(36,21,238);
+    background: linear-gradient(90deg, rgba(36,21,238,1) 0%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.view_all{
+    height: 40px; border: 2px solid #ac0fa4; 
+    box-shadow: 2px 9px 5px 0px rgba(196,179,179,0.75);
+    border: 2px solid gray;
+    border-radius: 124px 110px 102px 128px;
+-moz-border-radius: 124px 110px 102px 128px;
+-webkit-border-radius: 124px 110px 102px 128px;
+border: 0px solid #000000;
+    -webkit-box-shadow: 2px 9px 5px 0px rgba(196,179,179,0.75);
+    -moz-box-shadow: 2px 9px 5px 0px rgba(196,179,179,0.75); 
+}
+#view_text a {
+    text-decoration: none; 
+    color: #ac0fa4;
+     font-weight: bold; 
+    padding: 2px; 
+}
+#view_text a:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+    transform: ;
+    transition: 2s;
+}
+
+.view_all:hover{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 45%, rgba(0,212,255,1) 100%);
+      
+}
+
+
+/* our team style start */
+
+
+h1{
+    text-align: center;
+    color:#1785eb;
+    font-size: 45px;
+}
+.coint{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.our-team{
+    border-radius: 30px;
+    background: #ffffff;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin: 0px 25px;
+    padding: 30px 70px;
+}
+.our-team .pic{
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 0px;
+    z-index: 1;
+    position: relative;
+}
+.our-team .pic::before{
+    content: "";
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background: #1785eb;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0;
+    opacity: 0.2;
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+
+}
+
+.our-team:hover .pic::before{
+    height: 100%;
+}
+
+.our-team .pic:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #1785eb;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.our-team .pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
+}
+.our-team:hover .pic img{
+    box-shadow: 0 0 0 14px #f7f5ec;
+    transform: scale(0.7);
+}
+.our-team .title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #4e5052;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+.our-team .post{
+    display: block;
+    font-size: 15px;
+    color: #4e5052;
+}
+.our-team .social{
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #1785eb;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    transition: all 0.5s ease 0s;
+
+}
+.our-team:hover .social{
+   
+    bottom: 0;
+}
+
+.our-team .social li{
+    display: inline-block;
+}
+
+.our-team .social li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    color: #fff;
+    transition: all 0.3s ease 0s ;
+}
+.our-team.social li a:hover{
+    color: #1785eb;
+    background: #f7f5ec;
+}
+
+@media(max-width:){
+    .container{
+        flex-direction: column;
+    }
+    .our-team{
+        width: 80%;
+        margin-top: ;
+    }
+}
+
+
+
+/* our team style start */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fot{
+    margin-top: 1rem;
+    color: white;
+    font-size: 25px;
+    padding: 2px 1rem;
+}
